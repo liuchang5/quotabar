@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="QuotaBarIcon.png" width="128" alt="QuotaBar icon">
+</p>
+
 # QuotaBar
 
 **English** | [中文](README.zh-CN.md)
@@ -56,7 +60,21 @@ Single-file Swift (AppKit), no external dependencies.
 
 ## Screenshots
 
-(TBD)
+<img src="screenshots/menubar.png" width="420" alt="Menu bar status">
+
+*Menu bar status — 3-bar signal icon + usage label. The icon shape is fixed; its color follows the usage tier (green <50%, yellow 50–75%, orange 75–90%, red ≥90%).*
+
+<img src="screenshots/menu.png" width="340" alt="Dropdown menu">
+
+*Dropdown menu — switch plans at the top, then quota windows (last 5 hours / week / month) with human-friendly reset times and color-coded progress bars.*
+
+<img src="screenshots/settings.png" width="460" alt="Settings panel">
+
+*Settings panel — add / edit / delete plans and configure per-plan credentials: `arkcli` local login or AK/SK direct API.*
+
+<img src="screenshots/chart.png" width="700" alt="Model price & leaderboard chart">
+
+*Model price & capability chart (⌘P) — official API prices (input / output), modality badges, three leaderboard scores with ranks, Opus 4.8 & Sonnet baselines highlighted, sortable by score or price.*
 
 ## License
 

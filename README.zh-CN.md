@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="QuotaBarIcon.png" width="128" alt="QuotaBar 图标">
+</p>
+
 # QuotaBar
 
 [English](README.md) | **中文**
@@ -56,7 +60,21 @@ open /Applications/QuotaBar.app
 
 ## 截图
 
-（待补充）
+<img src="screenshots/menubar.png" width="420" alt="菜单栏状态">
+
+*菜单栏状态 —— 三格信号条图标 + 用量标签。图标形状固定，颜色随消耗档位变化（绿 <50% / 黄 50–75% / 橙 75–90% / 红 ≥90%）。*
+
+<img src="screenshots/menu.png" width="340" alt="下拉菜单">
+
+*下拉菜单 —— 顶部切换套餐，下方为额度窗口（近5小时 / 近一周 / 近一月），含人性化重置时间与彩色进度条。*
+
+<img src="screenshots/settings.png" width="460" alt="设置面板">
+
+*设置面板 —— 增删改套餐，每个套餐独立配置认证方式：arkcli 本机登录 或 AK/SK 直查。*
+
+<img src="screenshots/chart.png" width="700" alt="模型价格与榜单图表">
+
+*模型价格·类型·三榜单（⌘P）—— 官方 API 价格（输入/输出）、模态类型徽标、三个榜单分数与名次，Opus 4.8 / Sonnet 基准高亮，支持按榜单或价格排序。*
 
 ## License
 
